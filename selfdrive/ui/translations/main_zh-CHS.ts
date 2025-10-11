@@ -135,20 +135,20 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>Brightness</name>
     <message>
-        <source>Brightness</source>
-        <translation>亮度</translation>
-    </message>
-    <message>
-        <source>Overrides the brightness of the device.</source>
-        <translation>覆盖设备的亮度设置。</translation>
-    </message>
-    <message>
         <source>Auto (Dark)</source>
         <translation>自动（暗色）</translation>
     </message>
     <message>
         <source>Auto</source>
         <translation>自动</translation>
+    </message>
+    <message>
+        <source>Global Brightness</source>
+        <translation type="deepseek-chat">全局亮度</translation>
+    </message>
+    <message>
+        <source>Overrides the brightness of the device. This applies to both onroad and offroad screens. </source>
+        <translation type="deepseek-chat">覆盖设备的亮度设置。此设置适用于行车中和非行车中的屏幕。</translation>
     </message>
 </context>
 <context>
@@ -602,16 +602,6 @@ Steering lag calibration is complete.</source>
         <translation>唤醒行为</translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation>交互超时</translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
-        <translation>为设置界面应用自定义超时时间。
-如果用户未与屏幕交互，设置界面将在该时间后自动关闭。</translation>
-    </message>
-    <message>
         <source>Reboot</source>
         <translation>重启</translation>
     </message>
@@ -656,10 +646,6 @@ This is the time after which settings UI closes automatically if user is not int
         <translation>退出“始终离线”模式</translation>
     </message>
     <message>
-        <source>Always Offroad</source>
-        <translation>始终离线</translation>
-    </message>
-    <message>
         <source>⁍ Default: Device will boot/wake-up normally &amp; will be ready to engage.</source>
         <translation>⁍ 默认：设备将正常启动/唤醒，并准备就绪。</translation>
     </message>
@@ -699,16 +685,42 @@ This is the time after which settings UI closes automatically if user is not int
         <source>Update process started. Device will reboot if updates are applied.</source>
         <translation type="vanished">更新进程已启动。如果应用更新，设备将重启。</translation>
     </message>
+    <message>
+        <source>Onroad Uploads</source>
+        <translation type="deepseek-chat">行车上传</translation>
+    </message>
+    <message>
+        <source>Always Offroad</source>
+        <translation type="deepseek-chat">始终越野</translation>
+    </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
         <source>Driving Screen Off: Non-Critical Events</source>
-        <translation type="deepseek-chat">驾驶屏幕关闭：非关键事件</translation>
+        <translation type="vanished">驾驶屏幕关闭：非关键事件</translation>
     </message>
     <message>
         <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
-        <translation type="deepseek-chat">在驾驶开始后关闭设备屏幕或降低亮度。当触摸屏幕或发生关键事件时，屏幕会自动恢复亮度。</translation>
+        <translation type="vanished">在驾驶开始后关闭设备屏幕或降低亮度。当触摸屏幕或发生关键事件时，屏幕会自动恢复亮度。</translation>
+    </message>
+    <message>
+        <source>Onroad Screen: Reduced Brightness</source>
+        <translation type="deepseek-chat">行车屏幕：降低亮度</translation>
+    </message>
+    <message>
+        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a visible alert is displayed.</source>
+        <translation type="deepseek-chat">在驾驶开始后关闭设备屏幕或降低亮度。当触摸屏幕或显示可见警报时，屏幕会自动再次变亮。</translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="deepseek-chat">交互超时</translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
+        <translation type="deepseek-chat">为设置界面应用自定义超时时间。
+此时间为用户未与屏幕交互后，设置界面自动关闭的等待时长。</translation>
     </message>
 </context>
 <context>
@@ -775,55 +787,55 @@ This is the time after which settings UI closes automatically if user is not int
     <name>ExternalStorageControl</name>
     <message>
         <source>External Storage</source>
-        <translation>外部存储</translation>
+        <translation type="deepseek-chat">外部存储</translation>
     </message>
     <message>
         <source>Extend your comma device's storage by inserting a USB drive into the aux port.</source>
-        <translation>通过将USB驱动器插入辅助端口来扩展您的comma设备的存储空间。</translation>
+        <translation type="deepseek-chat">通过将USB驱动器插入辅助端口来扩展您的comma设备的存储空间。</translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation>检查</translation>
+        <translation type="deepseek-chat">检查</translation>
     </message>
     <message>
         <source>MOUNT</source>
-        <translation>安装</translation>
+        <translation type="deepseek-chat">安装</translation>
     </message>
     <message>
         <source>UNMOUNT</source>
-        <translation>卸载</translation>
+        <translation type="deepseek-chat">卸载</translation>
     </message>
     <message>
         <source>FORMAT</source>
-        <translation>格式化</translation>
+        <translation type="deepseek-chat">格式</translation>
     </message>
     <message>
         <source>Are you sure you want to format this drive? This will erase all data.</source>
-        <translation>您确定要格式化此驱动器吗？这将擦除所有数据。</translation>
+        <translation type="deepseek-chat">您确定要格式化此驱动器吗？这将清除所有数据。</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation>格式化</translation>
+        <translation type="deepseek-chat">格式</translation>
     </message>
     <message>
         <source>formatting</source>
-        <translation>格式化</translation>
+        <translation type="deepseek-chat">格式化</translation>
     </message>
     <message>
         <source>insert drive</source>
-        <translation>插入驱动器</translation>
+        <translation type="deepseek-chat">插入驱动器</translation>
     </message>
     <message>
         <source>needs format</source>
-        <translation>需要格式化</translation>
+        <translation type="deepseek-chat">需要格式化</translation>
     </message>
     <message>
         <source>mounting</source>
-        <translation>安装中</translation>
+        <translation type="deepseek-chat">安装</translation>
     </message>
     <message>
         <source>unmounting</source>
-        <translation>卸载中</translation>
+        <translation type="deepseek-chat">卸载中</translation>
     </message>
 </context>
 <context>
@@ -979,13 +991,17 @@ Firehose模式允许您最大化训练数据上传以改善openpilot的驾驶模
     <message>
         <source>GREEN
 LIGHT</source>
-        <translation type="deepseek-chat">绿灯</translation>
+        <translation>绿灯</translation>
     </message>
     <message>
         <source>LEAD VEHICLE
 DEPARTING</source>
-        <translation type="deepseek-chat">前车  
+        <translation>前车
 正在离开</translation>
+    </message>
+    <message>
+        <source>STOPPED</source>
+        <translation type="deepseek-chat">已停止</translation>
     </message>
 </context>
 <context>
@@ -1167,6 +1183,18 @@ This will not disable OEM functionality.</source>
         <source>Customize Lane Turn</source>
         <translation type="vanished">自定义车道转向</translation>
     </message>
+    <message>
+        <source>Enforce Torque Lateral Control</source>
+        <translation type="deepseek-chat">强制扭矩横向控制</translation>
+    </message>
+    <message>
+        <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
+        <translation type="deepseek-chat">启用此选项以强制sunnypilot使用扭矩横向控制进行转向。</translation>
+    </message>
+    <message>
+        <source>Customize Params</source>
+        <translation type="deepseek-chat">自定义参数</translation>
+    </message>
 </context>
 <context>
     <name>LongitudinalPanel</name>
@@ -1264,11 +1292,11 @@ This will not disable OEM functionality.</source>
     </message>
     <message>
         <source>Smart Cruise Control - Map</source>
-        <translation type="deepseek-chat">智能巡航控制 - 地图</translation>
+        <translation>智能巡航控制 - 地图</translation>
     </message>
     <message>
         <source>Use map data to estimate the appropriate speed to drive through turns ahead.</source>
-        <translation type="deepseek-chat">利用地图数据预测前方弯道应采取的合适速度。</translation>
+        <translation>利用地图数据预测前方弯道应采取的合适速度。</translation>
     </message>
 </context>
 <context>
@@ -1663,10 +1691,6 @@ The default software delay value is 0.2</source>
         <translation>一个针对您设备的操作系统更新正在后台下载中。当更新准备好安装时，您将收到提示进行更新。</translation>
     </message>
     <message>
-        <source>NVMe drive not mounted.</source>
-        <translation>NVMe固态硬盘未被挂载。</translation>
-    </message>
-    <message>
         <source>Device temperature too high. System cooling down before starting. Current internal component temperature: %1</source>
         <translation>设备温度过高。系统正在冷却中，等冷却完毕后才会启动。目前内部组件温度：%1</translation>
     </message>
@@ -1713,6 +1737,10 @@ The default software delay value is 0.2</source>
     <message>
         <source>&lt;b&gt;Unsupported branch detected&lt;/b&gt; - The current version of &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; branch is no longer supported on the comma three. Please go to &lt;b&gt;[Device &gt; Software]&lt;/b&gt; and install a supported branch with &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; in the branch name for the comma three.</source>
         <translation>&lt;b&gt;检测到不受支持的分支&lt;/b&gt; - 当前&lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt;分支版本已不再支持comma three设备。请前往&lt;b&gt;[设备 &gt; 软件]&lt;/b&gt;页面，安装名称中包含&lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt;标识的受支持分支版本以适配comma three。</translation>
+    </message>
+    <message>
+        <source>NVMe drive not mounted.</source>
+        <translation type="deepseek-chat">NVMe 驱动器未挂载。</translation>
     </message>
 </context>
 <context>
@@ -1891,6 +1919,34 @@ Warning: You are on a metered connection!</source>
     <message>
         <source>Time remaining: </source>
         <translation>剩余时间：</translation>
+    </message>
+    <message>
+        <source>Search Country</source>
+        <translation type="deepseek-chat">选择国家</translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all countries.</source>
+        <translation type="deepseek-chat">输入搜索关键词，或留空以列出所有国家。</translation>
+    </message>
+    <message>
+        <source>Select Country</source>
+        <translation type="deepseek-chat">选择国家</translation>
+    </message>
+    <message>
+        <source>Search State</source>
+        <translation type="deepseek-chat">搜索状态</translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all states.</source>
+        <translation type="deepseek-chat">输入搜索关键词，或留空以列出所有状态。</translation>
+    </message>
+    <message>
+        <source>Select State</source>
+        <translation type="deepseek-chat">选择州</translation>
+    </message>
+    <message>
+        <source>No results found for keywords: %1</source>
+        <translation type="deepseek-chat">未找到关键词“%1”的结果</translation>
     </message>
 </context>
 <context>
@@ -2143,7 +2199,7 @@ Data</source>
     </message>
     <message>
         <source>Assist</source>
-        <translation type="deepseek-chat">辅助</translation>
+        <translation>辅助</translation>
     </message>
 </context>
 <context>
@@ -2241,7 +2297,7 @@ Data</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="deepseek-chat">显示</translation>
+        <translation>显示</translation>
     </message>
 </context>
 <context>
@@ -2686,7 +2742,7 @@ Data</source>
     </message>
     <message>
         <source>⦿ Assist: Adjusts the vehicle's cruise speed based on the current road's speed limit when operating the +/- buttons.</source>
-        <translation type="deepseek-chat">⦿ 辅助功能：在操作+/-按钮时，根据当前道路限速自动调整车辆巡航速度。</translation>
+        <translation>⦿ 辅助功能：在操作+/-按钮时，根据当前道路限速自动调整车辆巡航速度。</translation>
     </message>
 </context>
 <context>
@@ -3217,6 +3273,60 @@ Full: File Manager + Live Stream.</source>
     </message>
 </context>
 <context>
+    <name>TorqueLateralControlCustomParams</name>
+    <message>
+        <source>Manual Real-Time Tuning</source>
+        <translation type="deepseek-chat">手动实时调校</translation>
+    </message>
+    <message>
+        <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
+        <translation type="deepseek-chat">强制横向扭矩控制器使用固定值，而非自调谐学习所得数值。启用此开关将覆盖自调谐数值。</translation>
+    </message>
+    <message>
+        <source>Lateral Acceleration Factor</source>
+        <translation type="deepseek-chat">横向加速度系数</translation>
+    </message>
+    <message>
+        <source>Friction</source>
+        <translation type="deepseek-chat">摩擦</translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="deepseek-chat">实时与离线</translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="deepseek-chat">仅限离线</translation>
+    </message>
+</context>
+<context>
+    <name>TorqueLateralControlSettings</name>
+    <message>
+        <source>Self-Tune</source>
+        <translation type="deepseek-chat">自调谐</translation>
+    </message>
+    <message>
+        <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
+        <translation type="deepseek-chat">为默认不使用扭矩横向控制的平台启用扭矩横向控制的自动调谐功能。</translation>
+    </message>
+    <message>
+        <source>Less Restrict Settings for Self-Tune (Beta)</source>
+        <translation type="deepseek-chat">降低自调谐设置限制（测试版）</translation>
+    </message>
+    <message>
+        <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
+        <translation type="deepseek-chat">在使用自调谐功能时采用较为宽松的设置。这使得扭矩在学习数值时更具容错性。</translation>
+    </message>
+    <message>
+        <source>Enable Custom Tuning</source>
+        <translation type="deepseek-chat">启用自定义调校</translation>
+    </message>
+    <message>
+        <source>Enables custom tuning for Torque lateral control. Modifying Lateral Acceleration Factor and Friction below will override the offline values indicated in the YAML files within "opendbc/car/torque_data". The values will also be used live when "Manual Real-Time Tuning" toggle is enabled.</source>
+        <translation type="deepseek-chat">启用扭矩横向控制的自定义调校功能。调整下方的横向加速度系数和摩擦系数将覆盖"opendbc/car/torque_data"目录下YAML文件中标注的离线数值。当启用"手动实时调校"开关时，这些数值也会实时生效。</translation>
+    </message>
+</context>
+<context>
     <name>TreeOptionDialog</name>
     <message>
         <source>Select</source>
@@ -3345,23 +3455,47 @@ Bottom</source>
     </message>
     <message>
         <source>Green Traffic Light Alert (Beta)</source>
-        <translation type="deepseek-chat">绿色交通信号灯提醒（测试版）</translation>
+        <translation>绿色交通信号灯提醒（测试版）</translation>
     </message>
     <message>
         <source>A chime and on-screen alert will play when the traffic light you are waiting for turns green and you have no vehicle in front of you.</source>
-        <translation type="deepseek-chat">当您等待的交通信号灯变为绿灯且前方无车辆时，系统会发出提示音并显示屏幕警示。</translation>
+        <translation>当您等待的交通信号灯变为绿灯且前方无车辆时，系统会发出提示音并显示屏幕警示。</translation>
     </message>
     <message>
         <source>Note: This chime is only designed as a notification. It is the driver's responsibility to observe their environment and make decisions accordingly.</source>
-        <translation type="deepseek-chat">注意：此提示音仅作为通知用途。驾驶员有责任观察周围环境并据此做出决策。</translation>
+        <translation>注意：此提示音仅作为通知用途。驾驶员有责任观察周围环境并据此做出决策。</translation>
     </message>
     <message>
         <source>Lead Departure Alert (Beta)</source>
-        <translation type="deepseek-chat">提前出发警报（测试版）</translation>
+        <translation>提前出发警报（测试版）</translation>
     </message>
     <message>
         <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
-        <translation type="deepseek-chat">当您停车时，若前方车辆开始移动，系统将发出提示音并显示屏幕警报。</translation>
+        <translation>当您停车时，若前方车辆开始移动，系统将发出提示音并显示屏幕警报。</translation>
+    </message>
+    <message>
+        <source>Speedometer: Always Display True Speed</source>
+        <translation type="deepseek-chat">速度表：始终显示真实速度</translation>
+    </message>
+    <message>
+        <source>Always display the true vehicle current speed from wheel speed sensors.</source>
+        <translation type="deepseek-chat">始终显示来自车轮速度传感器的车辆真实当前速度。</translation>
+    </message>
+    <message>
+        <source>Speedometer: Hide from Onroad Screen</source>
+        <translation type="deepseek-chat">速度表：从行车屏幕中隐藏</translation>
+    </message>
+    <message>
+        <source>When enabled, the speedometer on the onroad screen is not displayed.</source>
+        <translation type="deepseek-chat">启用时，道路屏幕上的速度表将不会显示。</translation>
+    </message>
+    <message>
+        <source>Display Turn Signals</source>
+        <translation type="deepseek-chat">显示转向灯</translation>
+    </message>
+    <message>
+        <source>When enabled, visual turn indicators are drawn on the HUD.</source>
+        <translation type="deepseek-chat">启用后，平视显示器上将显示视觉转向指示灯。</translation>
     </message>
 </context>
 <context>

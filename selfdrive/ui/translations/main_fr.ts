@@ -136,20 +136,20 @@ Veuillez utiliser cette fonction avec prudence. Utilisez le clignotant uniquemen
 <context>
     <name>Brightness</name>
     <message>
-        <source>Brightness</source>
-        <translation>Luminosité</translation>
-    </message>
-    <message>
-        <source>Overrides the brightness of the device.</source>
-        <translation>Remplace la luminosité de l&apos;appareil.</translation>
-    </message>
-    <message>
         <source>Auto (Dark)</source>
         <translation>Automatique (Sombre)</translation>
     </message>
     <message>
         <source>Auto</source>
         <translation>Automatique</translation>
+    </message>
+    <message>
+        <source>Global Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overrides the brightness of the device. This applies to both onroad and offroad screens. </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -599,16 +599,6 @@ Steering lag calibration is complete.</source>
         <translation>Comportement au réveil</translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation>Temps d&apos;Interactivité Dépassé</translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
-        <translation>Appliquer un délai d&apos;expiration personnalisé pour l&apos;interface des paramètres.
-Il s&apos;agit du délai après lequel l&apos;interface des paramètres se ferme automatiquement si l&apos;utilisateur n&apos;interagit pas avec l&apos;écran.</translation>
-    </message>
-    <message>
         <source>Reboot</source>
         <translation>Redémarrer</translation>
     </message>
@@ -653,10 +643,6 @@ Il s&apos;agit du délai après lequel l&apos;interface des paramètres se ferme
         <translation>Sortie Toujours Hors Route</translation>
     </message>
     <message>
-        <source>Always Offroad</source>
-        <translation>Toujours Hors Route</translation>
-    </message>
-    <message>
         <source>⁍ Default: Device will boot/wake-up normally &amp; will be ready to engage.</source>
         <translation>Par défaut : L&apos;appareil démarrera/se réveillera normalement et sera prêt à s&apos;engager.</translation>
     </message>
@@ -696,15 +682,32 @@ Il s&apos;agit du délai après lequel l&apos;interface des paramètres se ferme
         <source>Update process started. Device will reboot if updates are applied.</source>
         <translation type="vanished">Processus de mise à jour démarré. L&apos;appareil redémarrera si des mises à jour sont appliquées.</translation>
     </message>
+    <message>
+        <source>Onroad Uploads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
-        <source>Driving Screen Off: Non-Critical Events</source>
+        <source>Onroad Screen: Reduced Brightness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
+        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a visible alert is displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -772,55 +775,55 @@ Il s&apos;agit du délai après lequel l&apos;interface des paramètres se ferme
     <name>ExternalStorageControl</name>
     <message>
         <source>External Storage</source>
-        <translation>Stockage externe</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Extend your comma device&apos;s storage by inserting a USB drive into the aux port.</source>
-        <translation>Augmentez le stockage de votre appareil Comma en insérant une clé USB dans le port auxiliaire.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation>VÉRIFIER</translation>
+        <translation type="unfinished">VÉRIFIER</translation>
     </message>
     <message>
         <source>MOUNT</source>
-        <translation>MONTER</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UNMOUNT</source>
-        <translation>DÉMONTER</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>FORMAT</source>
-        <translation>FORMAT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to format this drive? This will erase all data.</source>
-        <translation>Êtes-vous sûr de vouloir formater ce lecteur ? Toutes les données seront effacées.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Format</source>
-        <translation>Format</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>formatting</source>
-        <translation>formatage</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>insert drive</source>
-        <translation>Insérer le lecteur</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>needs format</source>
-        <translation>Nécessite un format</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>mounting</source>
-        <translation>montage</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unmounting</source>
-        <translation>démontage</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -982,6 +985,10 @@ LIGHT</source>
     <message>
         <source>LEAD VEHICLE
 DEPARTING</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>STOPPED</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1162,6 +1169,18 @@ Cela ne désactivera pas les fonctionnalités OEM.</translation>
     <message>
         <source>Customize Lane Turn</source>
         <translation type="vanished">Personnaliser le virage de voie</translation>
+    </message>
+    <message>
+        <source>Enforce Torque Lateral Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customize Params</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1659,10 +1678,6 @@ La valeur par défaut du délai logiciel est de 0,2.</translation>
         <translation>Une mise à jour du système d&apos;exploitation de votre appareil est en cours de téléchargement en arrière-plan. Vous serez invité à effectuer la mise à jour lorsqu&apos;elle sera prête à être installée.</translation>
     </message>
     <message>
-        <source>NVMe drive not mounted.</source>
-        <translation>Le disque NVMe n&apos;est pas monté.</translation>
-    </message>
-    <message>
         <source>Device failed to register with the comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support.</source>
         <translation>L&apos;appareil n&apos;a pas pu s&apos;enregistrer auprès du backend de comma.ai. Il ne se connectera pas et ne transférera pas de données vers les serveurs de comma.ai, et ne bénéficiera d&apos;aucune assistance de la part de comma.ai. Si cet appareil a été acheté sur comma.ai/shop, veuillez ouvrir un ticket à l&apos;adresse https://comma.ai/support.</translation>
     </message>
@@ -1705,6 +1720,10 @@ La valeur par défaut du délai logiciel est de 0,2.</translation>
     <message>
         <source>&lt;b&gt;Unsupported branch detected&lt;/b&gt; - The current version of &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; branch is no longer supported on the comma three. Please go to &lt;b&gt;[Device &gt; Software]&lt;/b&gt; and install a supported branch with &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; in the branch name for the comma three.</source>
         <translation>&lt;b&gt;Branche non prise en charge détectée&lt;/b&gt; - La version actuelle de la branche &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; n&apos;est plus prise en charge sur le comma three. Veuillez vous rendre dans &lt;b&gt;[Appareil &gt; Logiciel]&lt;/b&gt; et installer une branche prise en charge comportant &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; dans le nom de la branche pour le comma three.</translation>
+    </message>
+    <message>
+        <source>NVMe drive not mounted.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1883,6 +1902,34 @@ Warning: You are on a metered connection!</source>
     <message>
         <source>Time remaining: </source>
         <translation>Temps restant :</translation>
+    </message>
+    <message>
+        <source>Search Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all countries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all states.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results found for keywords: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3208,6 +3255,60 @@ Complet : Gestionnaire de fichiers + Flux en direct.</translation>
     </message>
 </context>
 <context>
+    <name>TorqueLateralControlCustomParams</name>
+    <message>
+        <source>Manual Real-Time Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lateral Acceleration Factor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Friction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TorqueLateralControlSettings</name>
+    <message>
+        <source>Self-Tune</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less Restrict Settings for Self-Tune (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Custom Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables custom tuning for Torque lateral control. Modifying Lateral Acceleration Factor and Friction below will override the offline values indicated in the YAML files within &quot;opendbc/car/torque_data&quot;. The values will also be used live when &quot;Manual Real-Time Tuning&quot; toggle is enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TreeOptionDialog</name>
     <message>
         <source>Select</source>
@@ -3340,6 +3441,30 @@ Bas</translation>
     </message>
     <message>
         <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Always Display True Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always display the true vehicle current speed from wheel speed sensors.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Hide from Onroad Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, the speedometer on the onroad screen is not displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Turn Signals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, visual turn indicators are drawn on the HUD.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

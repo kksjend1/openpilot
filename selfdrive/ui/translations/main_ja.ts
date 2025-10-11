@@ -136,20 +136,20 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>Brightness</name>
     <message>
-        <source>Brightness</source>
-        <translation>明るさ</translation>
-    </message>
-    <message>
-        <source>Overrides the brightness of the device.</source>
-        <translation>デバイスの輝度を上書きします。</translation>
-    </message>
-    <message>
         <source>Auto (Dark)</source>
         <translation>自動（ダーク）</translation>
     </message>
     <message>
         <source>Auto</source>
         <translation>自動</translation>
+    </message>
+    <message>
+        <source>Global Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overrides the brightness of the device. This applies to both onroad and offroad screens. </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -650,16 +650,6 @@ Sunnypilot は標準の openpilot にはない多くの追加機能を提供し�
         <translation>起動時の動作</translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation>インタラクティブタイムアウト</translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
-        <translation>設定UIにカスタムタイムアウトを適用します。
-これは、ユーザーが画面を操作しない場合に設定UIが自動的に閉じられるまでの時間です。</translation>
-    </message>
-    <message>
         <source>Reboot</source>
         <translation>再起動</translation>
     </message>
@@ -704,10 +694,6 @@ This is the time after which settings UI closes automatically if user is not int
         <translation>常時オフロード終了</translation>
     </message>
     <message>
-        <source>Always Offroad</source>
-        <translation>常時オフロード</translation>
-    </message>
-    <message>
         <source>⁍ Default: Device will boot/wake-up normally &amp; will be ready to engage.</source>
         <translation>デフォルト：デバイスは通常通り起動/ウェイクアップし、エンゲージの準備が整います。</translation>
     </message>
@@ -747,15 +733,32 @@ This is the time after which settings UI closes automatically if user is not int
         <source>Update process started. Device will reboot if updates are applied.</source>
         <translation type="vanished">アップデートプロセスを開始しました。アップデートが適用されるとデバイスが再起動します。</translation>
     </message>
+    <message>
+        <source>Onroad Uploads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
-        <source>Driving Screen Off: Non-Critical Events</source>
+        <source>Onroad Screen: Reduced Brightness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
+        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a visible alert is displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -823,55 +826,55 @@ This is the time after which settings UI closes automatically if user is not int
     <name>ExternalStorageControl</name>
     <message>
         <source>External Storage</source>
-        <translation>外部ストレージ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Extend your comma device&apos;s storage by inserting a USB drive into the aux port.</source>
-        <translation>コンマデバイスのストレージを拡張するには、USBドライブをAUXポートに挿入してください。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation>確認</translation>
+        <translation type="unfinished">確認</translation>
     </message>
     <message>
         <source>MOUNT</source>
-        <translation>取り付け</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UNMOUNT</source>
-        <translation>アンマウント</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>FORMAT</source>
-        <translation>形式</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to format this drive? This will erase all data.</source>
-        <translation>このドライブをフォーマットしてもよろしいですか？すべてのデータが消去されます。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Format</source>
-        <translation>形式</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>formatting</source>
-        <translation>書式設定</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>insert drive</source>
-        <translation>運転を開始</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>needs format</source>
-        <translation>形式が必要です</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>mounting</source>
-        <translation>取り付け</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unmounting</source>
-        <translation>アンマウント中</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1032,6 +1035,10 @@ LIGHT</source>
     <message>
         <source>LEAD VEHICLE
 DEPARTING</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>STOPPED</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1211,6 +1218,18 @@ This will not disable OEM functionality.</source>
     <message>
         <source>Customize Lane Turn</source>
         <translation type="vanished">車線変更のカスタマイズ</translation>
+    </message>
+    <message>
+        <source>Enforce Torque Lateral Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customize Params</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1704,10 +1723,6 @@ The default software delay value is 0.2</source>
         <translation>オペレーティングシステムがバックグラウンドでダウンロードされています。インストールの準備が整うと更新を促されます。</translation>
     </message>
     <message>
-        <source>NVMe drive not mounted.</source>
-        <translation>SSDドライブ(NVMe)がマウントされていません。</translation>
-    </message>
-    <message>
         <source>Device temperature too high. System cooling down before starting. Current internal component temperature: %1</source>
         <translation>デバイスの温度が高すぎるためシステム起動前の冷却中です。現在のデバイス内部温度: %1</translation>
     </message>
@@ -1754,6 +1769,10 @@ The default software delay value is 0.2</source>
     <message>
         <source>&lt;b&gt;Unsupported branch detected&lt;/b&gt; - The current version of &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; branch is no longer supported on the comma three. Please go to &lt;b&gt;[Device &gt; Software]&lt;/b&gt; and install a supported branch with &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; in the branch name for the comma three.</source>
         <translation>&lt;b&gt;サポート対象外のブランチが検出されました&lt;/b&gt; - 現在の&lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt;ブランチのバージョンは、comma threeではサポートされなくなりました。&lt;b&gt;[デバイス &gt; ソフトウェア]&lt;/b&gt;に移動し、ブランチ名に&lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt;が含まれるサポート対象のブランチをcomma threeにインストールしてください。</translation>
+    </message>
+    <message>
+        <source>NVMe drive not mounted.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1932,6 +1951,34 @@ Warning: You are on a metered connection!</source>
     <message>
         <source>Time remaining: </source>
         <translation>残り時間:</translation>
+    </message>
+    <message>
+        <source>Search Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all countries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all states.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results found for keywords: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3259,6 +3306,60 @@ Full: File Manager + Live Stream.</source>
     </message>
 </context>
 <context>
+    <name>TorqueLateralControlCustomParams</name>
+    <message>
+        <source>Manual Real-Time Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lateral Acceleration Factor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Friction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TorqueLateralControlSettings</name>
+    <message>
+        <source>Self-Tune</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less Restrict Settings for Self-Tune (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Custom Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables custom tuning for Torque lateral control. Modifying Lateral Acceleration Factor and Friction below will override the offline values indicated in the YAML files within &quot;opendbc/car/torque_data&quot;. The values will also be used live when &quot;Manual Real-Time Tuning&quot; toggle is enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TreeOptionDialog</name>
     <message>
         <source>Select</source>
@@ -3391,6 +3492,30 @@ Bottom</source>
     </message>
     <message>
         <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Always Display True Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always display the true vehicle current speed from wheel speed sensors.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Hide from Onroad Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, the speedometer on the onroad screen is not displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Turn Signals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, visual turn indicators are drawn on the HUD.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

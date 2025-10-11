@@ -135,20 +135,20 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>Brightness</name>
     <message>
-        <source>Brightness</source>
-        <translation>亮度</translation>
-    </message>
-    <message>
-        <source>Overrides the brightness of the device.</source>
-        <translation>覆蓋設備的亮度。</translation>
-    </message>
-    <message>
         <source>Auto (Dark)</source>
         <translation>自動（暗色）</translation>
     </message>
     <message>
         <source>Auto</source>
         <translation>自动</translation>
+    </message>
+    <message>
+        <source>Global Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overrides the brightness of the device. This applies to both onroad and offroad screens. </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -604,16 +604,6 @@ Steering lag calibration is complete.</source>
         <translation>唤醒行为</translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation>交互超时</translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
-        <translation>为设置界面应用自定义超时。
-此时间是指如果用户未与屏幕互动，则设置界面将自动关闭的时间。</translation>
-    </message>
-    <message>
         <source>Reboot</source>
         <translation>重啟</translation>
     </message>
@@ -658,10 +648,6 @@ This is the time after which settings UI closes automatically if user is not int
         <translation>退出始终離線模式</translation>
     </message>
     <message>
-        <source>Always Offroad</source>
-        <translation>永远離線</translation>
-    </message>
-    <message>
         <source>⁍ Default: Device will boot/wake-up normally &amp; will be ready to engage.</source>
         <translation>⁍ 預設：設備將正常啟動/喚醒並準備好進行操作。</translation>
     </message>
@@ -701,15 +687,32 @@ This is the time after which settings UI closes automatically if user is not int
         <source>Update process started. Device will reboot if updates are applied.</source>
         <translation type="vanished">更新程序已啟動。若更新套用完成，裝置將重新啟動。</translation>
     </message>
+    <message>
+        <source>Onroad Uploads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
-        <source>Driving Screen Off: Non-Critical Events</source>
+        <source>Onroad Screen: Reduced Brightness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
+        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a visible alert is displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -777,55 +780,55 @@ This is the time after which settings UI closes automatically if user is not int
     <name>ExternalStorageControl</name>
     <message>
         <source>External Storage</source>
-        <translation>外部储存</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Extend your comma device&apos;s storage by inserting a USB drive into the aux port.</source>
-        <translation>通过将 USB 驱动器插入辅助端口来扩展您的 comma 设备的存储空间。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation>检查</translation>
+        <translation type="unfinished">檢查</translation>
     </message>
     <message>
         <source>MOUNT</source>
-        <translation>安装</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UNMOUNT</source>
-        <translation>卸载</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>FORMAT</source>
-        <translation>格式化</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to format this drive? This will erase all data.</source>
-        <translation>您确定要格式化这个驱动器吗？这将会删除所有数据。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Format</source>
-        <translation>格式化</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>formatting</source>
-        <translation>格式化</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>insert drive</source>
-        <translation>插入驱动器</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>needs format</source>
-        <translation>需要格式化</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>mounting</source>
-        <translation>安装中</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unmounting</source>
-        <translation>卸载中</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -986,6 +989,10 @@ LIGHT</source>
     <message>
         <source>LEAD VEHICLE
 DEPARTING</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>STOPPED</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1172,6 +1179,18 @@ This will not disable OEM functionality.</source>
     <message>
         <source>Customize Lane Turn</source>
         <translation type="vanished">自訂車道轉向</translation>
+    </message>
+    <message>
+        <source>Enforce Torque Lateral Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customize Params</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1665,10 +1684,6 @@ The default software delay value is 0.2</source>
         <translation>一個有關操作系統的更新正在後台下載中。當更新準備好安裝時，您將收到提示進行更新。</translation>
     </message>
     <message>
-        <source>NVMe drive not mounted.</source>
-        <translation>NVMe 固態硬碟未被掛載。</translation>
-    </message>
-    <message>
         <source>Device temperature too high. System cooling down before starting. Current internal component temperature: %1</source>
         <translation>裝置溫度過高。系統正在冷卻中，等冷卻完畢後才會啟動。目前內部組件溫度：%1</translation>
     </message>
@@ -1715,6 +1730,10 @@ The default software delay value is 0.2</source>
     <message>
         <source>&lt;b&gt;Unsupported branch detected&lt;/b&gt; - The current version of &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; branch is no longer supported on the comma three. Please go to &lt;b&gt;[Device &gt; Software]&lt;/b&gt; and install a supported branch with &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; in the branch name for the comma three.</source>
         <translation>&lt;b&gt;偵測到不支援的分支&lt;/b&gt; - 目前使用的 &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; 分支版本已不再支援 comma three 裝置。請前往 &lt;b&gt;[裝置 &gt; 軟體]&lt;/b&gt; 選單，安裝分支名稱中包含 &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; 的支援版本以用於 comma three。</translation>
+    </message>
+    <message>
+        <source>NVMe drive not mounted.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1893,6 +1912,34 @@ Warning: You are on a metered connection!</source>
     <message>
         <source>Time remaining: </source>
         <translation>剩余时间：</translation>
+    </message>
+    <message>
+        <source>Search Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all countries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all states.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results found for keywords: %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2608,7 +2655,7 @@ Data</source>
     <name>SpeedLimitPolicy</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">回上頁</translation>
     </message>
     <message>
         <source>Speed Limit Source</source>
@@ -2639,7 +2686,7 @@ Data</source>
     <name>SpeedLimitSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">回上頁</translation>
     </message>
     <message>
         <source>Customize Source</source>
@@ -3210,6 +3257,60 @@ Full: File Manager + Live Stream.</source>
     </message>
 </context>
 <context>
+    <name>TorqueLateralControlCustomParams</name>
+    <message>
+        <source>Manual Real-Time Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lateral Acceleration Factor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Friction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TorqueLateralControlSettings</name>
+    <message>
+        <source>Self-Tune</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less Restrict Settings for Self-Tune (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Custom Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables custom tuning for Torque lateral control. Modifying Lateral Acceleration Factor and Friction below will override the offline values indicated in the YAML files within &quot;opendbc/car/torque_data&quot;. The values will also be used live when &quot;Manual Real-Time Tuning&quot; toggle is enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TreeOptionDialog</name>
     <message>
         <source>Select</source>
@@ -3341,6 +3442,30 @@ Bottom</source>
     </message>
     <message>
         <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Always Display True Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always display the true vehicle current speed from wheel speed sensors.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Hide from Onroad Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, the speedometer on the onroad screen is not displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Turn Signals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, visual turn indicators are drawn on the HUD.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

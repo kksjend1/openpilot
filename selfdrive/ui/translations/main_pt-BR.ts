@@ -134,19 +134,19 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>Brightness</name>
     <message>
-        <source>Brightness</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Overrides the brightness of the device.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Auto (Dark)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Global Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overrides the brightness of the device. This applies to both onroad and offroad screens. </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -484,15 +484,6 @@ A calibração do atraso da direção foi concluída.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Reboot</source>
         <translation type="unfinished">Reiniciar</translation>
     </message>
@@ -537,10 +528,6 @@ This is the time after which settings UI closes automatically if user is not int
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Always Offroad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>⁍ Default: Device will boot/wake-up normally &amp; will be ready to engage.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -552,15 +539,32 @@ This is the time after which settings UI closes automatically if user is not int
         <source>Controls state of the device after boot/sleep.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Onroad Uploads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always Offroad</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DisplayPanel</name>
     <message>
-        <source>Driving Screen Off: Non-Critical Events</source>
+        <source>Onroad Screen: Reduced Brightness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
+        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a visible alert is displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -794,6 +798,10 @@ LIGHT</source>
 DEPARTING</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>STOPPED</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>HyundaiSettings</name>
@@ -916,6 +924,18 @@ DEPARTING</source>
         <source>This platform supports limited MADS settings.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Enforce Torque Lateral Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable this to enforce sunnypilot to steer with Torque lateral control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customize Params</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LongitudinalPanel</name>
@@ -940,14 +960,6 @@ DEPARTING</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Smart Cruise Control - Vision</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Use vision path predictions to estimate the appropriate speed to drive through turns ahead.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Intelligent Cruise Button Management (ICBM) (Alpha)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -956,7 +968,11 @@ DEPARTING</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Speed Limit</source>
+        <source>Smart Cruise Control - Vision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use vision path predictions to estimate the appropriate speed to drive through turns ahead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -965,6 +981,10 @@ DEPARTING</source>
     </message>
     <message>
         <source>Use map data to estimate the appropriate speed to drive through turns ahead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speed Limit</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1355,10 +1375,6 @@ The default software delay value is 0.2</source>
         <translation>Uma atualização para o sistema operacional do seu dispositivo está sendo baixada em segundo plano. Você será solicitado a atualizar quando estiver pronto para instalar.</translation>
     </message>
     <message>
-        <source>NVMe drive not mounted.</source>
-        <translation>Unidade NVMe não montada.</translation>
-    </message>
-    <message>
         <source>Device temperature too high. System cooling down before starting. Current internal component temperature: %1</source>
         <translation>Temperatura do dispositivo muito alta. O sistema está sendo resfriado antes de iniciar. A temperatura atual do componente interno é: %1</translation>
     </message>
@@ -1402,6 +1418,10 @@ The default software delay value is 0.2</source>
     </message>
     <message>
         <source>&lt;b&gt;Unsupported branch detected&lt;/b&gt; - The current version of &lt;b&gt;&lt;u&gt;%1&lt;/u&gt;&lt;/b&gt; branch is no longer supported on the comma three. Please go to &lt;b&gt;[Device &gt; Software]&lt;/b&gt; and install a supported branch with &lt;b&gt;&lt;u&gt;-tici&lt;/u&gt;&lt;/b&gt; in the branch name for the comma three.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NVMe drive not mounted.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1578,6 +1598,34 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>Time remaining: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all countries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select Country</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter search keywords, or leave blank to list all states.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No results found for keywords: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2182,31 +2230,6 @@ Data</source>
     </message>
 </context>
 <context>
-    <name>SpeedLimitControlPolicy</name>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Voltar</translation>
-    </message>
-</context>
-<context>
-    <name>SpeedLimitControlSubpanel</name>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Voltar</translation>
-    </message>
-</context>
-<context>
-    <name>SpeedLimitControlWarning</name>
-    <message>
-        <source>Back</source>
-        <translation type="obsolete">Voltar</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation type="obsolete">N/A</translation>
-    </message>
-</context>
-<context>
     <name>SpeedLimitPolicy</name>
     <message>
         <source>Back</source>
@@ -2244,6 +2267,10 @@ Data</source>
         <translation type="unfinished">Voltar</translation>
     </message>
     <message>
+        <source>Speed Limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Customize Source</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2273,10 +2300,6 @@ Data</source>
     </message>
     <message>
         <source>⦿ Warning: Provides a warning when exceeding the current road&apos;s speed limit.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Speed Limit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2745,6 +2768,60 @@ Full: File Manager + Live Stream.</source>
     </message>
 </context>
 <context>
+    <name>TorqueLateralControlCustomParams</name>
+    <message>
+        <source>Manual Real-Time Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enforces the torque lateral controller to use the fixed values instead of the learned values from Self-Tune. Enabling this toggle overrides Self-Tune values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lateral Acceleration Factor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Friction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Real-time and Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Offline Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TorqueLateralControlSettings</name>
+    <message>
+        <source>Self-Tune</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables self-tune for Torque lateral control for platforms that do not use Torque lateral control by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less Restrict Settings for Self-Tune (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Less strict settings when using Self-Tune. This allows torqued to be more forgiving when learning values.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Custom Tuning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables custom tuning for Torque lateral control. Modifying Lateral Acceleration Factor and Friction below will override the offline values indicated in the YAML files within &quot;opendbc/car/torque_data&quot;. The values will also be used live when &quot;Manual Real-Time Tuning&quot; toggle is enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TreeOptionDialog</name>
     <message>
         <source>Select</source>
@@ -2822,23 +2899,6 @@ Full: File Manager + Live Stream.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Developer UI</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Display real-time parameters and metrics from various sources.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Right</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Right &amp;&amp;
-Bottom</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Enable Standstill Timer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2872,6 +2932,47 @@ Bottom</source>
     </message>
     <message>
         <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Always Display True Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always display the true vehicle current speed from wheel speed sensors.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speedometer: Hide from Onroad Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Right &amp;&amp;
+Bottom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Developer UI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display real-time parameters and metrics from various sources.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, the speedometer on the onroad screen is not displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display Turn Signals</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When enabled, visual turn indicators are drawn on the HUD.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
