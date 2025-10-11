@@ -704,11 +704,11 @@ This is the time after which settings UI closes automatically if user is not int
     <name>DisplayPanel</name>
     <message>
         <source>Driving Screen Off: Non-Critical Events</source>
-        <translation type="deepseek-chat">驾驶屏幕关闭：非关键事件</translation>
+        <translation>驾驶屏幕关闭：非关键事件</translation>
     </message>
     <message>
         <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
-        <translation type="deepseek-chat">在驾驶开始后关闭设备屏幕或降低亮度。当触摸屏幕或发生关键事件时，屏幕会自动恢复亮度。</translation>
+        <translation>在驾驶开始后关闭设备屏幕或降低亮度。当触摸屏幕或发生关键事件时，屏幕会自动恢复亮度。</translation>
     </message>
 </context>
 <context>
@@ -979,12 +979,12 @@ Firehose模式允许您最大化训练数据上传以改善openpilot的驾驶模
     <message>
         <source>GREEN
 LIGHT</source>
-        <translation type="deepseek-chat">绿灯</translation>
+        <translation>绿灯</translation>
     </message>
     <message>
         <source>LEAD VEHICLE
 DEPARTING</source>
-        <translation type="deepseek-chat">前车  
+        <translation>前车  
 正在离开</translation>
     </message>
 </context>
@@ -1264,11 +1264,11 @@ This will not disable OEM functionality.</source>
     </message>
     <message>
         <source>Smart Cruise Control - Map</source>
-        <translation type="deepseek-chat">智能巡航控制 - 地图</translation>
+        <translation>智能巡航控制 - 地图</translation>
     </message>
     <message>
         <source>Use map data to estimate the appropriate speed to drive through turns ahead.</source>
-        <translation type="deepseek-chat">利用地图数据预测前方弯道应采取的合适速度。</translation>
+        <translation>利用地图数据预测前方弯道应采取的合适速度。</translation>
     </message>
 </context>
 <context>
@@ -2143,7 +2143,7 @@ Data</source>
     </message>
     <message>
         <source>Assist</source>
-        <translation type="deepseek-chat">辅助</translation>
+        <translation>辅助</translation>
     </message>
 </context>
 <context>
@@ -2241,7 +2241,7 @@ Data</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="deepseek-chat">显示</translation>
+        <translation>显示</translation>
     </message>
 </context>
 <context>
@@ -2686,7 +2686,7 @@ Data</source>
     </message>
     <message>
         <source>⦿ Assist: Adjusts the vehicle's cruise speed based on the current road's speed limit when operating the +/- buttons.</source>
-        <translation type="deepseek-chat">⦿ 辅助功能：在操作+/-按钮时，根据当前道路限速自动调整车辆巡航速度。</translation>
+        <translation>⦿ 辅助功能：在操作+/-按钮时，根据当前道路限速自动调整车辆巡航速度。</translation>
     </message>
 </context>
 <context>
@@ -3345,23 +3345,23 @@ Bottom</source>
     </message>
     <message>
         <source>Green Traffic Light Alert (Beta)</source>
-        <translation type="deepseek-chat">绿色交通信号灯提醒（测试版）</translation>
+        <translation>绿色交通信号灯提醒（测试版）</translation>
     </message>
     <message>
         <source>A chime and on-screen alert will play when the traffic light you are waiting for turns green and you have no vehicle in front of you.</source>
-        <translation type="deepseek-chat">当您等待的交通信号灯变为绿灯且前方无车辆时，系统会发出提示音并显示屏幕警示。</translation>
+        <translation>当您等待的交通信号灯变为绿灯且前方无车辆时，系统会发出提示音并显示屏幕警示。</translation>
     </message>
     <message>
         <source>Note: This chime is only designed as a notification. It is the driver's responsibility to observe their environment and make decisions accordingly.</source>
-        <translation type="deepseek-chat">注意：此提示音仅作为通知用途。驾驶员有责任观察周围环境并据此做出决策。</translation>
+        <translation>注意：此提示音仅作为通知用途。驾驶员有责任观察周围环境并据此做出决策。</translation>
     </message>
     <message>
         <source>Lead Departure Alert (Beta)</source>
-        <translation type="deepseek-chat">提前出发警报（测试版）</translation>
+        <translation>提前出发警报（测试版）</translation>
     </message>
     <message>
         <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
-        <translation type="deepseek-chat">当您停车时，若前方车辆开始移动，系统将发出提示音并显示屏幕警报。</translation>
+        <translation>当您停车时，若前方车辆开始移动，系统将发出提示音并显示屏幕警报。</translation>
     </message>
 </context>
 <context>
