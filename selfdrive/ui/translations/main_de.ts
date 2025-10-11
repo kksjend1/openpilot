@@ -697,6 +697,17 @@ Dies ist die Zeit, nach der sich die Einstellungsoberfläche automatisch schlie�
     </message>
 </context>
 <context>
+    <name>DisplayPanel</name>
+    <message>
+        <source>Driving Screen Off: Non-Critical Events</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turn off device screen or reduce brightness after driving starts. It automatically brightens again when screen is touched or a critical event occurs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>DriveStats</name>
     <message>
         <source>Drives</source>
@@ -916,7 +927,7 @@ Der Firehose-Modus ermöglicht es Ihnen, Ihre Trainingsdaten-Uploads zu maximier
     </message>
     <message>
         <source>MAX</source>
-        <translation type="vanished">MAX</translation>
+        <translation>MAX</translation>
     </message>
     <message>
         <source>SPEED</source>
@@ -960,6 +971,16 @@ Der Firehose-Modus ermöglicht es Ihnen, Ihre Trainingsdaten-Uploads zu maximier
     </message>
     <message>
         <source>ft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GREEN
+LIGHT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LEAD VEHICLE
+DEPARTING</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1234,6 +1255,14 @@ Dadurch wird die OEM-Funktionalität nicht deaktiviert.</translation>
     </message>
     <message>
         <source>Speed Limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Smart Cruise Control - Map</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use map data to estimate the appropriate speed to drive through turns ahead.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2101,6 +2130,10 @@ Data</source>
         <source>Warning</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Assist</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsWindow</name>
@@ -2194,6 +2227,10 @@ Data</source>
     <message>
         <source>Developer</source>
         <translation>Entwickler</translation>
+    </message>
+    <message>
+        <source>Display</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2644,6 +2681,10 @@ Data</source>
     </message>
     <message>
         <source>Speed Limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>⦿ Assist: Adjusts the vehicle&apos;s cruise speed based on the current road&apos;s speed limit when operating the +/- buttons.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3287,6 +3328,26 @@ Unten</translation>
     </message>
     <message>
         <source>Displays the name of the road the car is traveling on. The OpenStreetMap database of the location must be downloaded from the OSM panel to fetch the road name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Green Traffic Light Alert (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A chime and on-screen alert will play when the traffic light you are waiting for turns green and you have no vehicle in front of you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Note: This chime is only designed as a notification. It is the driver&apos;s responsibility to observe their environment and make decisions accordingly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lead Departure Alert (Beta)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A chime and on-screen alert will play when you are stopped, and the vehicle in front of you start moving.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
