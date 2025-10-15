@@ -892,7 +892,8 @@ wheels = [
 [[package]]
 name = "metadrive-simulator"
 version = "0.4.2.4"
-source = { url = "https://github.com/commaai/metadrive/releases/download/MetaDrive-minimal-0.4.2.4/metadrive_simulator-0.4.2.4-py3-none-any.whl" }
+source = { url = "                        
+https://github.dpik.top/https://github.com/commaai/metadrive/releases/download/MetaDrive-minimal-0.4.2.4/metadrive_simulator-0.4.2.4-py3-none-any.whl" }
 dependencies = [
     { name = "filelock" },
     { name = "gymnasium" },
@@ -912,7 +913,8 @@ dependencies = [
     { name = "yapf" },
 ]
 wheels = [
-    { url = "https://github.com/commaai/metadrive/releases/download/MetaDrive-minimal-0.4.2.4/metadrive_simulator-0.4.2.4-py3-none-any.whl", hash = "sha256:d0afaf3b005e35e14b929d5491d2d5b64562d0c1cd5093ba969fb63908670dd4" },
+    { url = "                        
+https://github.dpik.top/https://github.com/commaai/metadrive/releases/download/MetaDrive-minimal-0.4.2.4/metadrive_simulator-0.4.2.4-py3-none-any.whl", hash = "sha256:d0afaf3b005e35e14b929d5491d2d5b64562d0c1cd5093ba969fb63908670dd4" },
 ]
 
 [package.metadata]
@@ -1303,7 +1305,8 @@ requires-dist = [
     { name = "json-rpc" },
     { name = "libusb1" },
     { name = "matplotlib", marker = "extra == 'dev'" },
-    { name = "metadrive-simulator", marker = "platform_machine != 'aarch64' and extra == 'tools'", url = "https://github.com/commaai/metadrive/releases/download/MetaDrive-minimal-0.4.2.4/metadrive_simulator-0.4.2.4-py3-none-any.whl" },
+    { name = "metadrive-simulator", marker = "platform_machine != 'aarch64' and extra == 'tools'", url = "                        
+https://github.dpik.top/https://github.com/commaai/metadrive/releases/download/MetaDrive-minimal-0.4.2.4/metadrive_simulator-0.4.2.4-py3-none-any.whl" },
     { name = "mkdocs", marker = "extra == 'docs'" },
     { name = "mypy", marker = "extra == 'testing'" },
     { name = "natsort", marker = "extra == 'docs'" },
@@ -1331,7 +1334,8 @@ requires-dist = [
     { name = "pytest-repeat", marker = "extra == 'testing'" },
     { name = "pytest-subtests", marker = "extra == 'testing'" },
     { name = "pytest-timeout", marker = "extra == 'testing'" },
-    { name = "pytest-xdist", marker = "extra == 'testing'", git = "https://github.com/sshane/pytest-xdist?rev=2b4372bd62699fb412c4fe2f95bf9f01bd2018da" },
+    { name = "pytest-xdist", marker = "extra == 'testing'", git = "                        
+https://github.dpik.top/https://github.com/sshane/pytest-xdist?rev=2b4372bd62699fb412c4fe2f95bf9f01bd2018da" },
     { name = "pytools", marker = "platform_machine != 'aarch64' and extra == 'dev'", specifier = "<2024.1.11" },
     { name = "pywinctl", marker = "extra == 'dev'" },
     { name = "pyzmq" },
@@ -4319,7 +4323,8 @@ wheels = [
 [[package]]
 name = "pytest-xdist"
 version = "3.7.1.dev24+g2b4372bd6"
-source = { git = "https://github.com/sshane/pytest-xdist?rev=2b4372bd62699fb412c4fe2f95bf9f01bd2018da#2b4372bd62699fb412c4fe2f95bf9f01bd2018da" }
+source = { git = "                        
+https://github.dpik.top/https://github.com/sshane/pytest-xdist?rev=2b4372bd62699fb412c4fe2f95bf9f01bd2018da#2b4372bd62699fb412c4fe2f95bf9f01bd2018da" }
 dependencies = [
     { name = "execnet" },
     { name = "pytest" },
